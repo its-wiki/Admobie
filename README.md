@@ -20,3 +20,10 @@ dependencies {
 	}
 
 ```
+
+>Load Banner Ads
+
+```
+ LinearLayout bannerContainer = findViewById(R.id.banner_container);
+ AdmobAds.loadBanner(this, bannerId, bannerContainer);
+```
