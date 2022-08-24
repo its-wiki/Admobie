@@ -36,7 +36,7 @@ dependencies {
 
 >Load Banner Ads
 
->Use this code in Layout file
+Use this code in Layout file
 ```
 <LinearLayout
         android:id="@+id/banner_container"
@@ -46,7 +46,8 @@ dependencies {
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"/>
 ```
->Use this in your activity/fragment 
+
+Use this in your activity/fragment 
 ```
  LinearLayout bannerContainer = findViewById(R.id.banner_container);
  AdmobAds.loadBanner(this, bannerId, bannerContainer);
