@@ -27,3 +27,16 @@ dependencies {
  LinearLayout bannerContainer = findViewById(R.id.banner_container);
  AdmobAds.loadBanner(this, bannerId, bannerContainer);
 ```
+>Load Interstitial Ads
+
+```
+AdmobAds.loadInterstitial(this, interstialId);
+
+```
+
+>Show Interstitial Ads
+
+```
+ AdmobAds.showInterstitial(MainActivity.this);
+
+```
