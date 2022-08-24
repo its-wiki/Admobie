@@ -21,8 +21,32 @@ dependencies {
 
 ```
 
+>Step 3. Add In Manifest file
+```
+<manifest>
+    <application>
+       ...
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+	...
+    </application>
+</manifest>
+```
+
 >Load Banner Ads
 
+>Use this code in Layout file
+```
+<LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+```
+>Use this in your activity/fragment 
 ```
  LinearLayout bannerContainer = findViewById(R.id.banner_container);
  AdmobAds.loadBanner(this, bannerId, bannerContainer);
