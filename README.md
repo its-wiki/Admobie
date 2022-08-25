@@ -21,7 +21,7 @@ dependencies {
 
 ```
 
-##Step 3. Add In Manifest file
+## Step 3. Add In Manifest file
 ```
 <manifest>
     <application>
@@ -34,7 +34,7 @@ dependencies {
 </manifest>
 ```
 
-##Load Banner Ads
+## Load Banner Ads
 
 >Use this code in Layout file
 ```
