@@ -1,7 +1,7 @@
 # Admobie
 Admobie is a library to integrate admob ads in your app fastly
 
->Step 1. Add the JitPack repository to your build file
+### Step 1. Add the JitPack repository to your build file
 
 ```
 allprojects {
@@ -12,7 +12,7 @@ allprojects {
 	}
 ```
 
->Step 2. Add the dependency
+### Step 2. Add the dependency
 
 ```
 dependencies {
@@ -21,7 +21,7 @@ dependencies {
 
 ```
 
-## Step 3. Add In Manifest file
+### Step 3. Add In Manifest file
 ```
 <manifest>
     <application>
@@ -34,7 +34,7 @@ dependencies {
 </manifest>
 ```
 
-## Load Banner Ads
+### Load Banner Ads
 
 >Use this code in Layout file
 ```
@@ -52,15 +52,14 @@ dependencies {
  LinearLayout bannerContainer = findViewById(R.id.banner_container);
  AdmobAds.loadBanner(this, bannerId, bannerContainer);
 ```
->Load Interstitial Ads
 
+### Load Interstitial Ads
 ```
 AdmobAds.loadInterstitial(this, interstialId);
 
 ```
 
->Show Interstitial Ads
-
+### Show Interstitial Ads
 ```
  AdmobAds.showInterstitial(MainActivity.this);
 
