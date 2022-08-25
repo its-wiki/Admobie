@@ -1,5 +1,5 @@
 # Admobie
-Admobie is a library to integrate admob ads in your app fastly
+Admobie is a library to integrate admob ads in your android app fastly. Now you can integrate Banner, Interstitial and Native ads less than 2 minutes.
 
 ### Step 1. Add the JitPack repository to your build file
 
